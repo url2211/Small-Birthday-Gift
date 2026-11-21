@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6dcea">
+<title>Pal 🎂</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="petals"></div>
+<canvas id="fx"></canvas>
+
+<!-- 0 PASSWORD -->
+<section class="s on" id="lock">
+  <div class="lk" id="lk">🔒</div>
+  <h1>Pal ke liye</h1>
+  <p class="sm" id="lmsg">Ek surprise band hai.<br>Password: tumhari birthdate (DDMM)</p>
+  <div id="pins"><i></i><i></i><i></i><i></i></div>
+  <div id="pad"></div>
+</section>
+
+<!-- 1 CAKE -->
+<section class="s">
+  <h2>Madamji, candles jalao 🕯️</h2>
+  <p class="sm" id="cmsg">Teeno candles ko touch karo</p>
+  <div id="cake"><div id="cn"></div><div class="tier t1"></div><div class="tier t2"></div><div class="plate"></div></div>
+  <button class="btn hide" id="b1" onclick="go(2)">Wish maang li ✨</button>
+</section>
+
+<!-- 2 BALLOONS -->
+<section class="s">
+  <h2>Gubbare phodo 🎈</h2>
+  <div id="sky"></div>
+  <div id="wish" class="wish">Har gubbare me ek wish chhupi hai</div>
+  <button class="btn hide" id="b2" onclick="go(3)">Ek letter aaya hai 💌</button>
+</section>
+
+<!-- 3 LETTER -->
+<section class="s">
+  <div id="env"><div class="ltr"></div><div class="flap"></div></div>
+  <p class="sm" id="emsg">Envelope ko touch karo</p>
+  <div class="paper hide" id="paper"><h2 id="to"></h2><p id="txt"></p></div>
+  <p class="end hide" id="end">Happy Birthday Pal! 🎉</p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
